@@ -28,9 +28,13 @@ Executing
 
 cd lib/examples
 sudo ./pdsch_enodeb_o -f @1 -p @2 -g @3 -c @4
+
 @1: TX frequency (target cell's DL frequency)
+
 @2: number of prb
+
 @3: TX gain
+
 @4: modified cell id
 
 ## Over The Air Network Traces in Inspectrum
