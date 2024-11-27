@@ -37,11 +37,9 @@ sudo ./pdsch_enodeb_o -f @1 -p @2 -g @3 -c @4
 
 @4: modified cell id
 
-## Over The Air Network Traces in Inspectrum
-Without injected MIB message - 
-
-With injected MIB message - 
+## Over The Air Network Trace in Inspectrum 
 ![image](https://github.com/user-attachments/assets/30e9470f-28b7-492d-a805-313a642c16b5)
+As in the spectrum, we can see that there is an injected signal (more greenish) on top of the legitimate LTE subframe 0 with a periodicity of 10 ms. This injected signal contains modified PSS, SSS and PBCH block (which contains the MIB message). I have also uploaded a few over the air network traces with and without injected signals in this repository.
 
 ## Credits:
 I sincerely appreciate the [SRS](https://srs.io/) team for making their great software available and SysSec-KAIST group for making their [sigover](https://github.com/SysSec-KAIST/sigover_injector?tab=readme-ov-file) tool public.
