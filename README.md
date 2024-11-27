@@ -43,10 +43,11 @@ Without injected MIB message -
 With injected MIB message - 
 ![image](https://github.com/user-attachments/assets/30e9470f-28b7-492d-a805-313a642c16b5)
 
-Credits
+## Credits:
 I sincerely appreciate the [SRS](https://srs.io/) team for making their great software available and SysSec-KAIST group for making their [sigover](https://github.com/SysSec-KAIST/sigover_injector?tab=readme-ov-file) tool public.
 
 Please refer to the [Sigover](https://syssec.kaist.ac.kr/pub/2019/sec19-yang-hojoon.pdf) paper for more details.
+
 @article{yaang:2019:sigover,
   author = {Yang, Hojoon and Bae, Sangwook and Son, Mincheol and Kim, Hongil and Kim, Song Min and Kim, Yongdae},
   title = {Hiding in plain signal: Physical signal overshadowing attack on {LTE}},
